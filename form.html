@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title> vitter </title>
+
+  <!-- FontAwesome Icons -->
+  <script src="https://kit.fontawesome.com/1dded6028d.js" crossorigin="anonymous"></script>
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+
+  <!-- Bootstrip JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.6.1/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="multiselect-dropdown.js"></script>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+  <section id='title'>
+    <div class='container-fluid p-5'>
+
+      <!-- Nav Bar -->
+      <nav class='navbar navbar-expand-lg navbar-dark' id='nav-top'>
+        <a class='navbar-brand' href=''> vitter </a>
+        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navlinks01" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <ul class="navbar-nav ml-auto" id="navlinks01">
+          <li class="nav-item"> <a class="nav-link" href=""> home </a> </li>
+          <li class="nav-item"> <a class="nav-link" onclick="signIn()">  sign in </a> </li>
+          <li class="nav-item"> <a class="nav-link" href="about.html"> about us </a> </li>
+        </ul>
+    </nav>
+    </div>
+    <div class="container mt-5" id="form_thing">
+      <select class="selectpicker" multiple aria-label="Default select example" data-live-search="true" id="form2">
+      </select>
+      <input class="btn btn-dark" onclick="submit_h()" value="Submit">
+    </div>
+    
+    </section>
+
+  <!-- Footer -->
+
+  <footer id="footer">
+    <a href="#" class='network'> &nbsp; <i class="fa-brands fa-twitter"></i> &nbsp; &nbsp; </a>
+    <a href="#" class='network'> <i class="fa-brands fa-facebook"></i> &nbsp; &nbsp; </a>
+    <a href="#" class='network'> <i class="fa-brands fa-instagram"></i> &nbsp; &nbsp; </a>
+    <a href="contact.html" class='network'> <i class="fa-solid fa-envelope"></i> &nbsp;</a>
+
+
+    <p id='copy'>© copyright 2023 vitter</p>
+
+  </footer>
+  <script src="script.js"></script>
+
+
+</body>
+
+</html>
