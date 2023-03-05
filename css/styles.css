@@ -1,0 +1,299 @@
+body {
+font-family: 'Montserrat', sans-serif;
+padding: 0px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat';
+}
+
+a {
+  color: #E9D5DA;
+}
+a:hover {
+  color:#F1DDBF;
+}
+
+.features-desc, .price-features, #price-footer {
+  font-size: 1.25em;
+  font-weight: normal;
+  font-family: serif;
+}
+
+.feature, .package-name, #cta {
+  color: #000000;
+  line-height: 1em;
+  font-size: 1.75em;
+}
+
+.form_ {
+padding: 12px;
+}
+
+/* Title */
+
+#title {
+  color: white;
+  margin-bottom: 35px;
+  background-color: #4D4C7D;
+}
+#form_thing {
+  color:#000000;
+  margin: 3px;
+  padding-top: 0%;
+  text-align: justify;
+}
+#form2 {
+  font-family: serif;
+  font-size: small;
+  font-weight: lighter;
+}
+#reg {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: normal;
+}
+.input_details {
+  text-align: center;
+  margin: 10px;
+  padding: 0 2%;
+  color: #8f8f8f;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  align-self: center;
+}
+#reg_form {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: large;
+  font-weight: lighter;
+  color:#ffffff;
+  text-align: justify;
+}
+#submit_reg {
+  padding: 0px 60px;
+  background-color: #ffffff;
+  color: #000000;
+  text-align: center;
+  border: 1px solid;
+  border-color: #000000;
+  border-radius: 5%;
+}
+.big-heading {
+  font-weight: 2.3em;
+  font-size: 3em;
+  line-height: 1.5
+}
+
+.container-fluid {
+  padding: 3% 3% 3%;
+}
+
+/* Navigation Bar */
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 4.5em;
+  font-weight: bold;
+  padding: 0px;
+}
+
+#nav-top {
+  padding: 0px;
+}
+
+.nav-item {
+  padding: 0 10px;
+}
+
+.nav-link {
+  font-family: monospace;
+  font-size: 1.5em;
+  font-weight: normal;
+}
+
+.download-button {
+  margin: 5% 4% 5% 0;
+  padding: 15px 25px;
+  font-weight: bolder;
+}
+
+#iphone {
+  transform: rotate(30deg);
+  width: 50%;
+  position: absolute;
+}
+/* Features */
+
+#features {
+  text-align: center;
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+
+.features-icon {
+  color: #363062;
+  font-size: 2.5em;
+  line-height: 2em;
+}
+
+.features-icon:hover {
+  color: #827397;
+}
+
+.features-desc {
+  color: #8f8f8f;
+  font-family: sans;
+  font-size: 1em;
+  font-weight: bold;
+  line-height: 1em;
+}
+
+#features-row {
+  margin: 100px 30px 100px 0;
+}
+
+.features-col {
+  padding: 35px 10px 35px 10px;
+}
+.feature {
+  color: #363062;
+}
+
+/* Testimonials */
+
+#testimonials {
+  text-align: center;
+  background-color: #4D4C7D;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+.testimonial-img {
+  padding: 5px;
+  border-radius: 100%;
+  width:20%;
+  height: 20%;
+  border: 2px solid;
+  border-color: white;
+}
+
+.testimonial-text {
+  line-height: 50px;
+  color: white;
+}
+
+.location {
+  font-size: 1.25em;
+  font-weight: normal;
+  font-family: monospace;
+  padding: 25px;
+  color: white;
+}
+
+.carousel-indicators {
+  padding: 20px;
+  margin: 10px 200px;
+  bottom: -30px;
+}
+
+.carousel-inner {
+  padding: 20px;
+}
+/* Press */
+
+#press {
+  padding-left: 50px;
+  padding-bottom: 5%;
+  background-color: #4D4C7D;
+}
+
+.press-img {
+  width: 15%;
+  margin: 50px 50px;
+}
+
+/* Card */
+
+#pricing {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: 0 440px;
+  text-align: center;
+  font-size: large;
+}
+
+/* CTA */
+
+#cta {
+  text-align: center;
+  background-color: #4D4C7D;
+  color: white;
+  padding: 7% 15% 5%;
+  color:white;
+}
+
+/* Footer */
+
+#footer {
+  color:black;
+  text-align: center;
+  padding: 50px;
+}
+
+.network {
+  color:black;
+  font-size:1.15em;
+}
+
+#copy {
+  color:grey;
+  font-size: 0.75em;
+}
+#ab {
+  align-self: center;
+}
+.card {
+  align-self: center;
+  background-color: #4D4C7D;
+  margin: 10px;
+  margin-bottom: 35px;
+  padding: 0;
+}
+#vit {
+  height: 220px;
+  width: 550px;
+  position: absolute;
+  top: 350px;
+  right: 100px;
+}
+#desc {
+  font-size: 1.0em;
+  margin-top: 0;
+  text-align: justify;
+  font-weight: bold;
+  font-family: sans-serif;
+  margin-left: 5px;
+  color: white;
+}
+#contact {
+  color: #4D4C7D;
+  margin: 10px;
+}
+#b {
+  background-color: #4D4C7D;
+}
+@media (max-width: 1028px) {
+  #iphone {
+    position: static;
+    transform: rotate(0);
+  }
+  h1 {
+    text-align: center;
+  }
+  #title {
+    text-align: center;
+  }
+}
