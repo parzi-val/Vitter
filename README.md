@@ -1,2 +1,2 @@
 #  Vitter
--> Web app for connecting VITians.
+Web app for connecting VITians.
